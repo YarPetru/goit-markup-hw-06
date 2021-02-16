@@ -489,6 +489,7 @@ body {
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
 
   font-weight: 700;
@@ -800,25 +801,32 @@ body {
   display: flex;
   flex-direction: column;
 }
+.modal-form-label {
+  margin-bottom: 10px;
+}
 
 .modal-form-input {
   display: block;
+  margin-top: 4px;
   padding-left: 42px;
   width: 100%;
+  height: 40px;
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  height: 40px;
-  margin-bottom: 10px;
+
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-comment {
   display: block;
   padding: 16px 12px;
+  margin-bottom: 20px;
+  margin-top: 4px;
   width: 100%;
+  height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 20px;
   resize: none;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -906,6 +914,7 @@ body {
   margin-top: 30px;
   width: 200px;
   height: 50px;
+
   border-radius: 4px;
   border: none;
   background-color: var(--accent-color);
